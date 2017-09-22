@@ -1,8 +1,8 @@
 <template>
     <div id="app">
-        {{msg}}
-        <router-link to="/home">Home</router-link>
-        <router-view></router-view>
+        <transition name="slide-fade">
+            <router-view></router-view>
+        </transition>
     </div>
 </template>
 
@@ -17,6 +17,15 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+    .slide-fade-enter-active{
+        transition: all .3s ease;
+    }
+    .slide-fade-leave-active{
+        transition: all 0s ease
+    }
+    .slide-fade-enter,.slide-fade-leave-active{
+        transform: translateX(-430px);
+        opacity: 0;
+    }
 </style>
