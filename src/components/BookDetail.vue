@@ -1,7 +1,11 @@
 <template>
     <div>
-        <button @click="back">返回</button>
-        <h1>BookDetail</h1>
+        <div>
+            <button @click="back">返回</button>
+        </div>
+        <div>
+            <h1>{{title}}</h1>
+        </div>
         <p>第{{id}}篇文章</p>
         
     </div>
@@ -11,7 +15,8 @@
     export default{
         data(){
             return {
-                id:""
+                id:"",
+                title:""
             }
         },
         methods:{
@@ -21,6 +26,7 @@
         },
         created:function(){
             this.id = this.$route.params.id;
+            this.title = this.$route.params.title;
         }
     }
 </script>
