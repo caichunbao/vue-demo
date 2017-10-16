@@ -1,4 +1,4 @@
-import BookDetail from "../components/BookDetail.vue"
+import ArticleDetail from "../components/ArticleDetail.vue"
 import Main from "../components/Main.vue"
 import Home from "../components/Home.vue"
 import Explorer from "../components/Explorer.vue"
@@ -17,7 +17,7 @@ const routes = [{
             { name: "Me", path: "me", component: Me }
         ]
     },
-    { name: "BookDetail", path: "/book/:id", component: BookDetail }
+    { name: "ArticleDetail", path: "/article/:id", component: ArticleDetail }
 
 ]
 

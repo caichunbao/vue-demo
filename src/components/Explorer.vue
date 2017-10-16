@@ -39,7 +39,7 @@
                 list:[
                     {
                         href:{
-                            name:'BookDetail',
+                            name:'ArticleDetail',
                             params:{
                                 id:1,
                                 title:"在最好的季节遇见你1"
@@ -49,7 +49,7 @@
                     },
                     {
                         href:{
-                            name:'BookDetail',
+                            name:'ArticleDetail',
                             params:{
                                 id:2,
                                 title:"在最好的季节遇见你2"
@@ -59,7 +59,7 @@
                     },
                     {
                         href:{
-                            name:'BookDetail',
+                            name:'ArticleDetail',
                             params:{
                                 id:3,
                                 title:"在最好的季节遇见你3"
@@ -77,7 +77,7 @@
                 this.busy = true;
                 this.list.push({
                     href:{
-                        name:'BookDetail',
+                        name:'ArticleDetail',
                         params:{
                             id:4,
                             title:"在最好的季节遇见你4"
