@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="title">
-            <p>发现</p>
+            <p>科技</p>
         </div>
         <div class="list" v-infinite-scroll="loadMore" infinite-scroll-disabled="busy" infinite-scroll-distance="10">
             <ul>
@@ -157,5 +157,3 @@
         transform: translateY(100px);
     }
 </style>
-
-

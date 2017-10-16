@@ -15,7 +15,7 @@
                 <i class="iconfont">&#xe6a1;</i>
                 <p>发现</p>
             </router-link>
-            <router-link :to="{name:'Cart'}" tag="li">
+            <router-link :to="{name:'Technogy'}" tag="li">
                 <i class="iconfont">&#xe6e0;</i>
                 <p>科技</p>
             </router-link>
